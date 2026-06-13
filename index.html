@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu Idioma</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#000;
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:20px;
+        }
+
+        .container{
+            display:flex;
+            flex-direction:column;
+            gap:40px;
+            width:100%;
+            max-width:600px;
+        }
+
+        .btn{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            gap:15px;
+            background:#ff0000;
+            color:#fff;
+            text-decoration:none;
+            font-size:28px;
+            font-weight:bold;
+            padding:25px;
+            border-radius:20px;
+            text-align:center;
+            box-shadow:0 0 25px rgba(255,0,0,.7);
+            animation:pulse 1.5s infinite;
+            transition:.3s;
+        }
+
+        .btn:hover{
+            transform:scale(1.05);
+        }
+
+        .flag{
+            font-size:36px;
+        }
+
+        @keyframes pulse{
+            0%{
+                transform:scale(1);
+                box-shadow:0 0 0 0 rgba(255,0,0,.8);
+            }
+            70%{
+                transform:scale(1.05);
+                box-shadow:0 0 0 25px rgba(255,0,0,0);
+            }
+            100%{
+                transform:scale(1);
+                box-shadow:0 0 0 0 rgba(255,0,0,0);
+            }
+        }
+
+        @media(max-width:768px){
+            .btn{
+                font-size:22px;
+                padding:20px;
+            }
+
+            .flag{
+                font-size:30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <a
+            class="btn"
+            href="https://t.me/LaurinhaKalimannbot"
+            target="_blank">
+            <span class="flag">🇧🇷</span>
+            FALE COMIGO AQUI
+        </a>
+
+        <a
+            class="btn"
+            href="https://t.me/VIPmarriedbot"
+            target="_blank">
+            <span class="flag">🇺🇸</span>
+            TALK TO ME HERE
+        </a>
+
+    </div>
+
+</body>
+</html>
