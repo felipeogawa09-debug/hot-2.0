@@ -3,14 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escolha seu Idioma</title>
+    <title>Zona das Casadas</title>
+
+    <!-- TikTok Pixel -->
+    <script>
+    !function (w, d, t) {
+      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];
+      ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"];
+      ttq.setAndDefer=function(t,e){
+        t[e]=function(){
+          t.push([e].concat(Array.prototype.slice.call(arguments,0)))
+        }
+      };
+      for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);
+      ttq.instance=function(t){
+        for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);
+        return e
+      };
+      ttq.load=function(e,n){
+        var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;
+        ttq._i=ttq._i||{};
+        ttq._i[e]=[];
+        ttq._i[e]._u=r;
+        ttq._t=ttq._t||{};
+        ttq._t[e]=+new Date;
+        ttq._o=ttq._o||{};
+        ttq._o[e]=n||{};
+        n=document.createElement("script");
+        n.type="text/javascript";
+        n.async=!0;
+        n.src=r+"?sdkid="+e+"&lib="+t;
+        e=document.getElementsByTagName("script")[0];
+        e.parentNode.insertBefore(n,e)
+      };
+
+      ttq.load('D8F7ESBC77UB4KU2BLJG');
+      ttq.page();
+    }(window, document, 'ttq');
+    </script>
+
+    <!-- UTMify -->
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      data-utmify-prevent-xcod-sck
+      data-utmify-prevent-subids
+      async
+      defer
+    ></script>
+
+    <!-- UTMify TikTok Pixel -->
+    <script>
+      window.tikTokPixelId = "6a1e834405ddc75a9d5e25dd";
+      var a = document.createElement("script");
+      a.setAttribute("async", "");
+      a.setAttribute("defer", "");
+      a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel-tiktok.js");
+      document.head.appendChild(a);
+    </script>
+
+    <!-- UTMify Pixel -->
+    <script>
+      window.pixelId = "6a29ace436d293259b6c9844";
+      var a = document.createElement("script");
+      a.setAttribute("async", "");
+      a.setAttribute("defer", "");
+      a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+      document.head.appendChild(a);
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}
+    (window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '4488878641372152');
+    fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code -->
 
     <style>
         *{
             margin:0;
             padding:0;
             box-sizing:border-box;
-            font-family:Arial, Helvetica, sans-serif;
+            font-family:Arial,Helvetica,sans-serif;
         }
 
         body{
@@ -22,27 +105,16 @@
             padding:20px;
         }
 
-        .container{
-            display:flex;
-            flex-direction:column;
-            gap:40px;
-            width:100%;
-            max-width:600px;
-        }
-
         .btn{
-            display:flex;
-            align-items:center;
-            justify-content:center;
-            gap:15px;
+            display:inline-block;
             background:#ff0000;
-            color:#fff;
+            color:#ffffff;
             text-decoration:none;
             font-size:28px;
             font-weight:bold;
-            padding:25px;
-            border-radius:20px;
             text-align:center;
+            padding:22px 40px;
+            border-radius:18px;
             box-shadow:0 0 25px rgba(255,0,0,.7);
             animation:pulse 1.5s infinite;
             transition:.3s;
@@ -50,10 +122,6 @@
 
         .btn:hover{
             transform:scale(1.05);
-        }
-
-        .flag{
-            font-size:36px;
         }
 
         @keyframes pulse{
@@ -74,36 +142,25 @@
         @media(max-width:768px){
             .btn{
                 font-size:22px;
-                padding:20px;
-            }
-
-            .flag{
-                font-size:30px;
+                padding:20px 25px;
             }
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
+    <noscript>
+        <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=4488878641372152&ev=PageView&noscript=1"/>
+    </noscript>
 
-        <a
-            class="btn"
-            href="https://t.me/LaurinhaKalimannbot"
-            target="_blank">
-            <span class="flag">🇧🇷</span>
-            FALE COMIGO AQUI
-        </a>
-
-        <a
-            class="btn"
-            href="https://t.me/VIPmarriedbot"
-            target="_blank">
-            <span class="flag">🇺🇸</span>
-            TALK TO ME HERE
-        </a>
-
-    </div>
+    <a
+        class="btn"
+        href="https://t.me/Vazadosdascasadasbot"
+        target="_blank"
+        onclick="ttq.track('ClickButton');">
+        CLIQUE PARA RESGATAR PRESENTE🎁
+    </a>
 
 </body>
 </html>
